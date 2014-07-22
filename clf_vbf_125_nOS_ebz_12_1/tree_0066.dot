@@ -1,0 +1,15 @@
+digraph Tree {
+0 [label="mmc1_mass <= 87.4602\ngini = 0.499999999996\nsamples = 15158", shape="box"] ;
+1 [label="gini = 0.4964\nsamples = 1897\nvalue = [ 0.10566648  0.08919551]", shape="box"] ;
+0 -> 1 ;
+2 [label="dR_tau1_tau2 <= 1.6848\ngini = 0.499790825247\nsamples = 13261", shape="box"] ;
+0 -> 2 ;
+3 [label="gini = 0.4905\nsamples = 7397\nvalue = [ 0.14074489  0.18573387]", shape="box"] ;
+2 -> 3 ;
+4 [label="eta_product_jets <= -1.3944\ngini = 0.498224801023\nsamples = 5864", shape="box"] ;
+2 -> 4 ;
+5 [label="gini = 0.4925\nsamples = 4384\nvalue = [ 0.15453301  0.1207809 ]", shape="box"] ;
+4 -> 5 ;
+6 [label="gini = 0.4997\nsamples = 1480\nvalue = [ 0.09905712  0.10428822]", shape="box"] ;
+4 -> 6 ;
+}

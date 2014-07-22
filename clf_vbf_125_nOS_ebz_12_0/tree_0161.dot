@@ -1,0 +1,11 @@
+digraph Tree {
+0 [label="MET_centrality <= 0.9938\ngini = 0.499999999698\nsamples = 15260", shape="box"] ;
+1 [label="gini = 0.4994\nsamples = 4459\nvalue = [ 0.17503571  0.16321865]", shape="box"] ;
+0 -> 1 ;
+2 [label="vector_sum_pt <= 18506.1523\ngini = 0.49984121865\nsamples = 10801", shape="box"] ;
+0 -> 2 ;
+3 [label="gini = 0.4984\nsamples = 6701\nvalue = [ 0.14366168  0.16109502]", shape="box"] ;
+2 -> 3 ;
+4 [label="gini = 0.4999\nsamples = 4100\nvalue = [ 0.18131489  0.17567405]", shape="box"] ;
+2 -> 4 ;
+}
